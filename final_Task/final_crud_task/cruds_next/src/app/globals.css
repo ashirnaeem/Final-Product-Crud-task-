@@ -1,0 +1,52 @@
+.form {
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #e9e5e5;
+  box-shadow: 2px 5px 10px rgba(0.3, 0.2, 0.3, 0.5);
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: #f0f0f0;
+  border: 1px solid #e9e5e5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 94vh;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+
+.sidebar .list-item {
+  cursor: pointer;
+}
+
+.sidebar .list-item:hover {
+  background-color: #ffff;
+}
+
+.sidebar .selected {
+  background-color: #e0e0e0;
+}
+
+.sidebar .list-item.selected {
+  background-color: #e0e0e0;
+}
+.homepage {
+  background-color: aqua;
+}
+.imgstyle {
+  position: absolute;
+  height: 85vh;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.user {
+  text-align: center;
+  background-color: #f0f0f0;
+  opacity: 0.4;
+  margin: 0;
+}
+
+.grids {
+  background-color: color-mix(in srgb, #fff, #182230 97%);
+}
